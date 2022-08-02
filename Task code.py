@@ -1,0 +1,7 @@
+print("Hello User")
+print("What is your first name?")
+first_name = (input().strip())
+print("What is your last name")
+last_name = (input().strip())
+full_name = first_name.capitalize() + " " + last_name.capitalize()
+print("Welcome" + " " + full_name)
